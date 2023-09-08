@@ -1,9 +1,9 @@
 #Application Configuration
 
-application:
-  title: @project.name@
-  version: @project.version@
-  author: Raúl Ponce
+#application:
+#  title: @project.name@
+#  version: @project.version@
+#  author: Raúl Ponce
 
 server:
   port: 8084
