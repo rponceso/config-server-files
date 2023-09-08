@@ -1,0 +1,17 @@
+#Application Configuration
+
+application:
+  title: @project.name@
+  version: @project.version@
+  author: Raúl Ponce
+
+server:
+  port: 8081
+spring:
+  application:
+    name: api-rest-customers
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: customers-db
