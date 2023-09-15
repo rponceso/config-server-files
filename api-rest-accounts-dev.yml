@@ -27,3 +27,8 @@ limit:
   saving-accounts: 1
   current-accounts: 1
   authorized-signers: 4
+  
+customer-personal:
+  minimumOpeningAmount: 0
+  vip:
+    minimumOpeningAmount: 500
