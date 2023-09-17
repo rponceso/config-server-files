@@ -22,6 +22,7 @@ config:
       customers: http://localhost:8081/api/customers
       transactions: http://localhost:8084/api/transactions
       creditcards: http://localhost:8085/api/creditcards
+      credits: http://localhost:8083/api/credits
 
 limit:
   saving-accounts: 1
