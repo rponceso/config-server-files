@@ -21,6 +21,7 @@ config:
     endpoint:
       customers: http://localhost:8081/api/customers
       accounts: http://localhost:8082/api/accounts
+      credits: http://localhost:8083/api/credits
 
 limit:
   saving-accounts: 1
