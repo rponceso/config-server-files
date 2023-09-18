@@ -20,6 +20,7 @@ config:
   base:
     endpoint:
       customers: http://localhost:8081/api/customers
+      credits: http://localhost:8083/api/credits
 
 limit:
   credits-customer-personal: 1
