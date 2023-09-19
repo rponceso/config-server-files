@@ -3,6 +3,11 @@ server:
 spring:
   application:
     name: api-rest-wallet-movil-yanki
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: walletmovil-db
 
 config:
   base:

@@ -3,4 +3,9 @@ server:
 spring:
   application:
     name: api-rest-wallet-movil-yanki-transaction
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: walletmoviltransaction-db    
 
