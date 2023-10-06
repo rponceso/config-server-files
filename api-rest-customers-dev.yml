@@ -7,7 +7,7 @@ spring:
     mongodb:
       host: localhost
       port: 27017
-      database: customers-db
+      database: customer-db-rxjava
       
 info:
   app:
@@ -22,16 +22,16 @@ management:
       base-path: /actuator  
    
 ### CircuitBreaker Configuration
-resilience4j:
-  circuitbreaker:
-    configs:
-      customProductService:
-        slidingWindowSize: 20
-        failureRateThreshold: 70
-        wait-duration-in-open-state: 10s
-        permitted-number-of-calls-in-half-open-state: 10
-        slow-call-duration-threshold: 2s
-        slow-call-rate-threshold: 70
-    instances:
-      product-service:
-        base-config: customProductService
+#resilience4j:
+#  circuitbreaker:
+#    configs:
+#      customProductService:
+#        slidingWindowSize: 20
+#        failureRateThreshold: 70
+#        wait-duration-in-open-state: 10s
+#        permitted-number-of-calls-in-half-open-state: 10
+#        slow-call-duration-threshold: 2s
+#        slow-call-rate-threshold: 70
+#    instances:
+#      product-service:
+#        base-config: customProductService
