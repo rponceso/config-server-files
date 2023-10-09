@@ -7,7 +7,7 @@ spring:
     mongodb:
       host: localhost
       port: 27017
-      database: customer-db-rxjava
+      database: customers-db-rxjava
       
 info:
   app:
